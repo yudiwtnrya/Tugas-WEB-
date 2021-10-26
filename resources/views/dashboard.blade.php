@@ -14,8 +14,8 @@
             </div>
         </div>
         <div class="flex text-5xl justify-center items-center font-bold text-blue-700 bg-blue-100 sm:rounded md:rounded-lg shadow-lg ">
-            Pos Pelayanan Terpadu (POSYANDU),<br> 
-            Demi generasi muda yang Maju !
+            Pos Pelayanan Terpadu (POSYANDU)<br> 
+            Demi Generasi Muda Yang Maju !
             <img class="w-1/2" src="{{ asset('img/1.png') }}" alt="">
         </div>
         <div class="flex items-center justify-center mt-4 mb-40">
@@ -30,7 +30,7 @@
                     <input class="py-2 px-4 w-1/4 bg-gray-100 shadow-md" type="text" placeholder="Masukan Nama">
                     <input class="py-2 px-4 w-1/4 bg-gray-100 shadow-md" type="text" placeholder="Nomor Akte Kelahiran anak anda">
                     <input class="py-2 px-4 w-1/4 bg-gray-100 shadow-md" type="text" placeholder="NIK Ibu balita">
-                    <button class="bg-blue-100 px-4 py-2">Cari</button>
+                    <button class="rounded-lg bg-blue-100 w-32 px-7 py-4 font-bold text-lg shadow-lg hover:bg-indigo-500">Cari</button>
                 </form>
             </div>
         </div>

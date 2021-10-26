@@ -89,12 +89,12 @@
     </div>
 	<nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6 fixed w-full z-10 top-0">
 		<div class="flex items-center flex-shrink-0 text-white mr-6">
-			<a class="text-white no-underline hover:text-white hover:no-underline" href="#">
+			<h1 class="text-white no-underline hover:text-white hover:no-underline" href="#">
 				<span class="text-2xl pl-2 flex justify-center items-center font-bold">
                     <img class="h-10 w-auto mr-2" src="/img/5568623.png" alt="">
                     Pusat Layanan Terpadu
                 </span>
-			</a>
+			</h1>
 		</div>
 
 		<div class="block lg:hidden">

@@ -8,7 +8,7 @@
     <meta name="description" content="">
 
     <!-- Tailwind -->
-    <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
         .font-family-karla { font-family: karla; }
@@ -28,7 +28,7 @@
         <div class="p-6">
             <div class="flex">
                 <img class="w-11 " src="{{ asset('img/5568623.png') }}" alt="not found">
-                <a href="index.html" class="pl-2 text-white text-3xl font-semibold uppercase hover:text-gray-300">Admin</a>
+                <h1 href="index.html" class="pl-2 text-white text-3xl font-semibold uppercase">Admin</h1>
             </div>
         </div>
         <nav class="text-white text-base font-semibold pt-3">
@@ -40,13 +40,21 @@
                 <i class="fas fa-align-left mr-3"></i>
                 Daftar Keluarga
             </a>
-            <a href="tabs.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-tablet-alt mr-3"></i>
-                Kontak
+            <a href="{{route('orangtua')}}" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                <i class="fas fa-align-left mr-3"></i>
+                Orang Tua
             </a>
-            <a href="calendar.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-                <i class="fas fa-calendar mr-3"></i>
+            <a href="{{route('balita')}}" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                <i class="fas fa-align-left mr-3"></i>
+                Balita
+            </a>
+            <a href="{{route('penyuluhan')}}" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                <i class="fas fa-tablet-alt mr-3"></i>
                 Tanggal Penyuluhan
+            </a>
+            <a href="{{route('posyandu')}}" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+                <i class="fas fa-tablet-alt mr-3"></i>
+                Pusat Posyandu
             </a>
         </nav>
 
